@@ -1,3 +1,7 @@
  A front end for meta_butler https://github.com/translated/meta_butler
 
+<<<<<<< HEAD
  Configure the list of jobs you're interested in in authdashboard.js
+=======
+ Configure the list of jobs you're interested in authdashboard.js
+>>>>>>> be417e8514e73c6bbe1a8952496e4dcf9104ca75
