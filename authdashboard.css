@@ -1,0 +1,75 @@
+body {
+  padding: 10px;
+  margin: 20px;
+  font: bold 23px Helvetica, Arial, sans-serif;
+  background-color: #FFF;
+}
+
+section, header, footer, aside, nav, article, figure {
+  display: block;
+}
+
+article {
+  color: #FFF;
+  float: left;
+  margin: 40px;
+  -moz-box-shadow: 5px 5px 5px #333333;
+  -webkit-box-shadow: 5px 5px 11px #333333;
+  -o-box-shadow: 5px 5px 11px #333333;
+  -ms-box-shadow: 5px 5px 11px #333333;
+  box-shadow: 5px 5px 11px #333333;
+  border-radius: 10px;
+}
+
+h1, h2, p {
+  margin: 40px;
+}
+
+.jenkins_blue {
+  background:#608204;
+}
+
+.jenkins_blue_anime {
+  background: #3861b6;
+}
+
+.jenkins_red_anime, .jenkins_aborted_anime {
+  background: #3861b6;
+  color: red;
+}
+
+.jenkins_red{
+  background: #a01208;
+}
+
+.jenkins_aborted {
+  background: #BBB;
+}
+
+.workedon {
+  opacity:.5; 
+}
+
+.worker {
+  -webkit-transform: rotate(20deg);
+  position: absolute;
+  color: black;
+  border: 10px dashed black;
+  margin: 0;
+  padding: 10px;
+  font-size: 2.5em;
+}
+
+.message {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: white;
+  color: black;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+  font: bold 20px Helvetica, Arial, sans-serif;
+}
