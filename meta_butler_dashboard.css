@@ -73,3 +73,13 @@ h1, h2, p {
   box-shadow: none;
   font: bold 20px Helvetica, Arial, sans-serif;
 }
+
+.claim {
+  position: absolute;
+  font-size: 40px;
+  color: black;
+  background: transparent;
+  border: 5px black dashed;
+  -webkit-transform: rotate(20deg);
+  padding: 20px;
+}
