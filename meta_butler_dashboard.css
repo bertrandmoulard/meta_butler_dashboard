@@ -42,7 +42,7 @@ h1, h2, p {
   background: #a01208;
 }
 
-.jenkins_aborted {
+.jenkins_aborted, .jenkins_disabled {
   background: #BBB;
 }
 
